@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "orgId": 1,
+  "name": "elastic",
+  "type": "elasticsearch",
+  "typeLogoUrl": "",
+  "access": "proxy",
+  "url": "http://elasticsearch:9200",
+  "password": "",
+  "user": "",
+  "database": "es_test_index",
+  "basicAuth": false,
+  "basicAuthUser": "",
+  "basicAuthPassword": "",
+  "withCredentials": false,
+  "isDefault": true,
+  "jsonData": {
+    "esVersion": 56,
+    "keepCookies": [],
+    "maxConcurrentShardRequests": 256,
+    "timeField": "timestamp"
+  },
+  "secureJsonFields": {},
+  "version": 7,
+  "readOnly": false
+}

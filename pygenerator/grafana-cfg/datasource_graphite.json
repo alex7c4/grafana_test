@@ -1,0 +1,24 @@
+{
+  "id": 2,
+  "orgId": 1,
+  "name": "graphite",
+  "type": "graphite",
+  "typeLogoUrl": "",
+  "access": "proxy",
+  "url": "http://graphite:8080",
+  "password": "",
+  "user": "",
+  "database": "",
+  "basicAuth": false,
+  "basicAuthUser": "",
+  "basicAuthPassword": "",
+  "withCredentials": false,
+  "isDefault": false,
+  "jsonData": {
+    "graphiteVersion": "1.1",
+    "keepCookies": []
+  },
+  "secureJsonFields": {},
+  "version": 4,
+  "readOnly": false
+}
