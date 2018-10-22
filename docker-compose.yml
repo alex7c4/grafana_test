@@ -9,6 +9,8 @@ services:
     image: graphiteapp/graphite-statsd:1.1.4-4
     container_name: graphite
     hostname: graphite
+    volumes:
+      - graphite-storage:/opt/graphite/storage
     ports:
       - 80:80
       - 2003-2004:2003-2004
@@ -46,7 +48,7 @@ services:
     hostname: grafana
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=secret
-      # - GF_INSTALL_PLUGINS=jdbranham-diagram-panel
+      - GF_INSTALL_PLUGINS=jdbranham-diagram-panel
     volumes:
       - grafana-storage:/var/lib/grafana
     ports:
@@ -67,3 +69,4 @@ services:
 volumes:
   grafana-storage:
   elastic-storage:
+  graphite-storage:
