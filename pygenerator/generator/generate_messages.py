@@ -26,7 +26,7 @@ def data_generator_1():
 
 
 def data_generator_2():
-    return randint(0, 100)
+    return randint(10, 60)
 
 
 def send_to_es(es):
